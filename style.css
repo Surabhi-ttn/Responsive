@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background: url('https://source.unsplash.com/WLUHO9A_xik/1600x900')
+                      no-repeat center center/cover;
+    color: white;
+    height: 100vh;
+    padding: 2rem;
+}
+.nav-div {
+    width: 80%;
+    height: 4rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    border-bottom: white 1px solid; 
+}
+.nav-div h4{
+    float: left;
+}
+.nav-div ul {
+    float: right;
+    list-style: none;
+}
+.nav-div li {
+    display: inline-block;
+}
+.nav-div ul li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 2rem;
+}
+
+.content {
+    width: 100%;
+    height: 50%;
+    padding-top: 5rem;
+}
+
+.content h1{  
+    text-align: center;
+    font-size: 3rem;
+}
+
+.options {
+    width: 30%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.options ul {
+    position: absolute;
+    margin-left: 3%;
+
+}
+.options ul li{
+    display: inline-block;
+    padding-left: 2rem;
+    
+}
+
+.icon i{
+    margin-left: 2rem;
+    color: #6cc092;
+}
+
+.travel , .gallery {
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 1rem;
+}
+
+.ride, .pic{
+    text-align: center;
+}
+
+.btn {
+    font-size: 14px;
+    color: #6cc092;
+    padding: 0.5rem 3rem;
+    border: solid #6cc092;
+    border-radius: 200px;
+    background-color: Transparent;
+    margin-top: 2rem;
+    margin-left: 32rem;
+}
+
+.section .card-container {
+    float: left;
+    text-align: center;
+    padding: 50px;
+    width: 50%;
+    display: inline;
+}
+
+.card-container .round {
+    border-radius: 50%;
+}
+
+.card-container p {
+    color: grey;
+    padding-top: 2rem;
+}
+
+.card-container h4 {
+    color: #474756;
+    padding-top: 1rem;
+}
+
+.buttons {
+    font-size: 14px;
+    color: #6cc092;
+    padding: 0.5rem 3rem;
+    border: solid #6cc092;
+    border-radius: 200px;
+    background-color: Transparent;
+    margin-top: 2rem;
+}

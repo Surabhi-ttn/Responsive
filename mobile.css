@@ -1,0 +1,72 @@
+.nav-div {
+    margin: auto;
+    height: 8rem;
+}
+
+.nav-div h4 {
+    float: none;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.nav-div ul, .nav-div ul li{
+    float: none;
+}
+
+.nav-div li {
+    display: block;
+    padding: 0.3rem;
+}
+
+.nav-div ul {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    width: 100%;
+    height: 80%;
+    padding-top: 2rem;
+} 
+
+.options {
+    width: 50%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+.options ul li{
+    display: block;
+    padding-top: 1rem;
+    
+}
+
+.btn {
+    font-size: 14px;
+    color: #6cc092;
+    padding: 0.5rem 3rem;
+    border: solid #6cc092;
+    border-radius: 200px;
+    background-color: Transparent;
+    margin-top: auto;
+    margin-left: 4rem;
+}
+
+.section .card-container {
+    float: none;
+    display: block;
+    width: 100%;
+}
+
+.card-container p {
+    text-align: center;
+
+}
+
+.card-container h4 {
+    text-align: center;
+}
+
